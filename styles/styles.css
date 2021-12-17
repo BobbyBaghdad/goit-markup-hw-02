@@ -1,0 +1,65 @@
+/* color set */
+:root {
+  --main-bcgclr: #ffffff;
+  --main-textclr: #757575;
+  --h-clr: #212121;
+  --accent: #2196f3;
+  --footer: #2f303a;
+}
+/* fundamentals */
+body {
+  color: var(--main-textclr);
+  background-color: var(--main-bcgclr);
+}
+/* mother's little helper */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--h-clr);
+}
+/* header */
+
+/* logo */
+.logo-first {
+  color: #2196f3; #000000;
+}
+.logo-second {
+  color: #000000;
+}
+/* nav */
+.nav a {
+  color: var(--h-clr);
+}
+.nav a:hover,
+.nav a:focus {
+  color: var(--accent);
+}
+/* feedback */
+.feedback a {
+  color: inherit;
+}
+.feedback a:hover,
+.feedback a:focus {
+  color: var(--accent);
+}
+
+
+/* footer */
+
+.footer {
+  background-color: var(--footer);
+}
+/* contacts */
+.contacts a {
+  color: rgba(255, 255, 255, 0.6);
+}
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--accent);
+}
+
+
+
