@@ -13,6 +13,7 @@
 body {
   color: var(--main-textclr);
   background-color: var(--main-bcgclr);
+  letter-spacing: 3%;
 }
 /* mother's little helper */
 h1,
@@ -28,13 +29,17 @@ h6 {
 /* logo */
 .logo-first {
   color: #2196f3; #000000;
+  text-decoration:none;
 }
 .logo-second {
   color: #000000;
+  text-decoration:none;
 }
 /* nav */
 .nav a {
   color: var(--h-clr);
+  letter-spacing: 2%;
+  text-decoration:none;
 }
 .nav a:hover,
 .nav a:focus {
@@ -43,6 +48,8 @@ h6 {
 /* feedback */
 .feedback a {
   color: inherit;
+  letter-spacing: 2%;
+  text-decoration:none;
 }
 .feedback a:hover,
 .feedback a:focus {
@@ -56,6 +63,7 @@ h6 {
 }
 .title {
    color: var(--main-bcgclr);
+   text-transform: uppercase;
 }
 .service {
   color: var(--main-bcgclr);
@@ -104,6 +112,7 @@ h6 {
 /* contacts */
 .contacts a {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration:none;
 }
 .contacts a:hover,
 .contacts a:focus {
