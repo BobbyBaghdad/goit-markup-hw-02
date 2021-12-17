@@ -5,6 +5,9 @@
   --h-clr: #212121;
   --accent: #2196f3;
   --footer: #2f303a;
+  --titlesection:  #E5E5E5; 
+  --activitysection: #F5F4FA; 
+  --portfoliosection: #EEEEEE; 
 }
 /* fundamentals */
 body {
@@ -20,7 +23,7 @@ h5,
 h6 {
   color: var(--h-clr);
 }
-/* header */
+/* HEADER */
 
 /* logo */
 .logo-first {
@@ -45,9 +48,55 @@ h6 {
 .feedback a:focus {
   color: var(--accent);
 }
+/* STUDIO */
+
+/* title section  */
+.main {
+  background-color: var(--footer);
+}
+.title {
+   color: var(--main-bcgclr);
+}
+.service {
+  color: var(--main-bcgclr);
+  background-color: var(--accent);
+}
+.service {
+  cursor: pointer;
+}
+
+/* specs section  */
+.specs {
+  background-color: var(--titlesection);
+}
+
+/* activity section */
+.activity {
+  background-color: var(--activitysection);
+}
+
+/* PORTFOLIO */
+
+/* main section */ */
+
+.portfolio {
+  background-color: var(--portfoliosection);
+}
+.tools button {
+  color: var(--h-clr);
+  background-color: var(--activitysection);
+}
+.tools button:hover,
+.tools button:focus {
+  color: var(--main-bcgclr);
+  background-color: var(--accent);
+}
+.tools button {
+  cursor: pointer;
+}
 
 
-/* footer */
+/* FOOTER */
 
 .footer {
   background-color: var(--footer);
