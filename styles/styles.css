@@ -1,4 +1,4 @@
-/* color set */
+/* colors set */
 :root {
   --main-bcgclr: #ffffff;
   --main-textclr: #757575;
@@ -14,6 +14,7 @@ body {
   color: var(--main-textclr);
   background-color: var(--main-bcgclr);
   letter-spacing: 3%;
+  font-family: Roboto, sans-serif 
 }
 /* mother's little helper */
 h1,
@@ -30,16 +31,22 @@ h6 {
 .logo-first {
   color: #2196f3; #000000;
   text-decoration:none;
+  font-family: Raleway, sans-serif
 }
+  
 .logo-second {
   color: #000000;
   text-decoration:none;
+  font-family: Raleway, sans-serif
 }
 /* nav */
 .nav a {
   color: var(--h-clr);
   letter-spacing: 2%;
   text-decoration:none;
+  font-weight: 500;
+  font-size 14px
+  line-height: height 1.1;
 }
 .nav a:hover,
 .nav a:focus {
@@ -50,6 +57,9 @@ h6 {
   color: inherit;
   letter-spacing: 2%;
   text-decoration:none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
 }
 .feedback a:hover,
 .feedback a:focus {
@@ -64,25 +74,61 @@ h6 {
 .title {
    color: var(--main-bcgclr);
    text-transform: uppercase;
+   weight: 900;
+   font-size: 44px;
+   line-height: 1.4;
+   letter-spacing: 6%;
+   text-align: center;
 }
 .service {
   color: var(--main-bcgclr);
   background-color: var(--accent);
-}
-.service {
   cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 6%;
+  text-align: center;
 }
-
+.activity, .specs, .team {
+  font-weight: 700;
+  font-size: 36;
+  line-height: 1.7;
+  text-align: center;
+}
 /* specs section  */
 .specs {
   background-color: var(--titlesection);
 }
+.elements {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+} 
+.elements-descr {
+   font-weight: 400;
+   font-size: 14px;
+   line-height 1.7;
+}
+  
 
 /* activity section */
 .activity {
   background-color: var(--activitysection);
 }
 
+.stuff {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+}
+.position {
+  font-weight: 400;
+  font-size: 16px;
+   line-height: height 1.9
+   text-align: center;
+}
 /* PORTFOLIO */
 
 /* main section */ */
@@ -93,14 +139,27 @@ h6 {
 .tools button {
   color: var(--h-clr);
   background-color: var(--activitysection);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: height 1.6;
+  text-align: center;
 }
 .tools button:hover,
 .tools button:focus {
   color: var(--main-bcgclr);
   background-color: var(--accent);
 }
-.tools button {
-  cursor: pointer;
+.example {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 6%;
+}
+.example-activity {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
 }
 
 
@@ -113,6 +172,9 @@ h6 {
 .contacts a {
   color: rgba(255, 255, 255, 0.6);
   text-decoration:none;
+  font-weight: 400;
+  font-size:  14px;
+  line-height: 1.7;  
 }
 .contacts a:hover,
 .contacts a:focus {
