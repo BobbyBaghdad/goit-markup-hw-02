@@ -34,7 +34,7 @@ ul {
 .logo {
   color: var(--h-clr); ;
   text-decoration:none;
-  font-family: Raleway, sans-serif
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -155,7 +155,7 @@ ul {
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
-  line-height: height 1.6;
+  line-height: 1.6;
   text-align: center;
   font-family: inherit;
 }
