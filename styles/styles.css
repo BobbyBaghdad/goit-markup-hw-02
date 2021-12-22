@@ -203,6 +203,9 @@ ul {
 .contacts a {
   text-decoration: none;
 }
+.contacts .contacts-address {
+  color: var(--main-bcgclr);
+}
 
 
 
