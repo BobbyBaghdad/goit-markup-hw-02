@@ -8,6 +8,7 @@
   --titlesection:  #E5E5E5; 
   --activitysection: #F5F4FA; 
   --portfoliosection: #EEEEEE; 
+  --footeraddress: rgba(255,255,255,0.6);   
 }
 /* fundamentals */
 body {
@@ -190,7 +191,7 @@ ul {
 }
 /* contacts */
 .contacts a {
-  color: var(--main-bcgclr)
+  color: var(--footeraddress);
   font-weight: 400;
   font-size:  14px;
   line-height: 1.7;  
